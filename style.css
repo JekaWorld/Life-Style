@@ -8,12 +8,49 @@
     text-decoration: none;
 }
 
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    align-items: center;
+    margin: 16px 900px;
+}
+
 .list {
     list-style-type: none;
 }
 
 .list :hover {
     color: #03A9F4;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+    width: 906px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cards {
+    text-decoration: none;
+}
+
+.card {
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 130px;
+    width: 420px;
+    height: 546px;
 }
 
 .foto {
@@ -27,6 +64,13 @@
     font-size: 14px;
     line-height: 16px;
     color: #B4AD9E;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 .pre-main-text-fotos {
@@ -52,15 +96,24 @@
 }
 
 .button {
-    font-family: 'Playfair Display';
+    font-family: "Playfair Display";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #626262;
-    position: absolute;
     width: 165px;
     height: 60px;
     background-color: #ffffff;
     cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+.conteiner {
+    display: block;
+}
+
+.header {
+    padding: 70px;
 }
